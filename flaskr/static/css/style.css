@@ -1,0 +1,27 @@
+#Table {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    padding: 25px;
+    padding-top: 5px;
+}
+
+td {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
