@@ -1,0 +1,71 @@
+/*------------------------------------------------------------------------------------------*/
+/* Author: Joel Pontes  --------------------------------------------------------------------*/
+/*------ Style of index --------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 96px;
+    background: linear-gradient(68.15deg, #141e30 16.62%, #243b55 85.62%);
+}
+
+.principal-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 96px;
+}
+
+.principal-content-write {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-content-write-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color:aliceblue;
+}
+
+.principal-content-write-text {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:aliceblue;
+}
+
+.principal-content-image {
+    height: 256px;
+}
+
+.secundary-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color: #DEE7F5;
+}
+
+.secundary-content-image {
+    height: 196px;
+}
+
+.secundary-content-title {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: black;
+}
+
+.secundary-content-text {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}

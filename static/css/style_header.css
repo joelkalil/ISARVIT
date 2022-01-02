@@ -1,0 +1,75 @@
+/*------------------------------------------------------------------------------------------*/
+/* Author: Joel Pontes  --------------------------------------------------------------------*/
+/*----- Style of header --------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    size: 100%;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* ------------------------------------------------------------------------------------------*/
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    background-color: #2D2D2D;
+    height: 72px;
+}
+
+.header-logo-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-name {
+    text-align: center;
+    padding: 12px;
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-image {
+    height: 48px;
+}
+
+.header-nav{
+    display: flex;
+    gap: 32px;
+}
+
+.header-nav-item{
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-nav-item:hover {
+    color: rgb(59, 68, 171);
+}
+
+.header-logo {
+    height: 32px;
+}
+
+.header-logos {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+/* ------------------------------------------------------------------------------------------*/

@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------------------------------*/
+/* Author: Joel Pontes  --------------------------------------------------------------------*/
+/*----- Style of footer --------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #2D2D2D;
+}
+
+.footer-universities {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-universities-title {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.footer-universities-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.footer-universities-image {
+    height: 64px;
+}
+
+.footer-image {
+    height: 124px;
+}
+
+.footer-title {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.footer-developed-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-developed-description-name {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.footer-developed-description-text {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: aliceblue;
+}
