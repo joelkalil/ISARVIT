@@ -1,7 +1,7 @@
 function back(){
     var path = document.getElementById("login");
-    path.innerHTML = `<input class="content-login-buttom" type = "submit" value = "Sign In" onclick="login();"/>
-    <input class="content-login-buttom" type = "submit" value = "Sign Up" onclick="registration();"/>`;
+    path.innerHTML = `<input class="content-requests-buttom" type = "submit" value = "Sign In" onclick="login();"/>
+    <input class="content-requests-buttom" type = "submit" value = "Sign Up" onclick="registration();"/>`;
 }
 
 function registration(){
@@ -14,8 +14,8 @@ function registration(){
             <p> Email : <input type = "text" name = "email" /></p>
             <p> Password : <input type = "password" name = "password" /></p>
             <div class="content-login-div">
-                <input class="content-login-buttom" type = "submit" value = "Submit" />
-                <input class="content-login-buttom" type = "submit" value = "Back" onclick="back();"/>
+                <input class="content-requests-buttom" type = "submit" value = "Submit" />
+                <input class="content-requests-buttom" type = "submit" value = "Back" onclick="back();"/>
             </div>        
         </form> `;
 }
@@ -27,8 +27,8 @@ function login(){
             <p> Login : <input type = "text" name = "Login" /></p>
             <p> Password : <input type = "password" name = "password" /></p>
             <div class="content-login-div">
-                <input class="content-login-buttom" type = "submit" value = "Submit" />
-                <input class="content-login-buttom" type = "submit" value = "Back" onclick="back();"/>
+                <input class="content-requests-buttom" type = "submit" value = "Submit" />
+                <input class="content-requests-buttom" type = "submit" value = "Back" onclick="back();"/>
             </div> 
          </form> `;
 }

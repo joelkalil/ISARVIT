@@ -51,13 +51,13 @@
     justify-content: center;
 }
 
-.content-login-div {
+.content-table-requests {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.content-login-buttom {
+.content-requests-buttom {
     margin: 20px;
     height: 48px;
     width: 156px;
@@ -66,4 +66,22 @@
     border-radius: 20px;
     color:aliceblue;
     background-color: #243b55;
+}
+
+.content-requests {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Sarala', sans-serif;
+    text-align: start;
+    font-size: 20px;
+    border: 0.4px solid lightgray;
+    border-radius: 15px;
+    padding: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: auto;
+    tab-size: 4;
+    color: gray;
+    background-color: rgb(236, 236, 236);
 }

@@ -8,7 +8,7 @@
    <link rel="stylesheet" href="/static/css/style_header.css">
    <link rel="stylesheet" href="/static/css/style_footer.css">
    <link rel="stylesheet" href="/static/css/style_documentation.css">
-   <link rel="icon" type="image/x-icon" href="/static/images/ico_ISARVIT.ico">
+   <link rel="icon" type="image/x-icon" href="/static/images/icone_ISARVIT.ico">
    <title>ISARVIT - Documentation</title>
 </head>
 <body>
@@ -23,12 +23,12 @@
       <nav class="header-nav">
          <a class="header-nav-item" href="/templates/index.html">Home</a>
          <a class="header-nav-item" href="/templates/documentation.html">Documentation</a>
-         <a class="header-nav-item" href="/templates/about.html">About Us</a>
+         <!--<a class="header-nav-item" href="/templates/about.html">About Us</a>-->
          <a class="header-nav-item" href="/templates/app.html">Aplication</a>
      </nav>
 
       <div class="header-logos">
-         <a href="https://www.github.com/joelkalil">
+         <a href="https://github.com/ISARVIT">
             <img class="header-logo" src="/static/images/github-inv.svg">
          </a>
          <a href="https://www.linkedin.com/company/isarvit/">
@@ -88,22 +88,113 @@
          </div>
 
          <div class="documentation-secundary-requests">
-            <p class="documentation-secundary-requests-subtitle"> "/API/getForms": </p>
+            <p class="documentation-secundary-requests-subtitle"> "/API/getForms/user/hash": </p>
                <p class="documentation-secundary-requests-text">
                   Get all forms which have the user as creator.<br>
-                  Parameter = none. Obs: This parameter isn't passed in GET or POST, is just putted in the URL of request.<br>
+                  Parameter = none.<br>
                   Return a JSON with all forms which have this user as creator.
                </p>
          </div>
 
          <div class="documentation-secundary-requests">
-            <p class="documentation-secundary-requests-subtitle"> "/API/addForm": </p>
+            <p class="documentation-secundary-requests-subtitle"> "/API/getAllForms/user/hash": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Get all forms. <br>
+                  Parameters = none. <br>
+                  Return a JSON with all forms already created.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/getRows/user/hash": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Get all rows. <br>
+                  Parameters = none. <br>
+                  Return a JSON with all rows' content.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/getColumns/user/hash": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Get all columns. <br>
+                  Parameters = none. <br>
+                  Return a JSON with all columns' content.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/getUserData/user/hash": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Get all data from a user. <br>
+                  Parameters = none. <br>
+                  Return a JSON with all users' content.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/addForm/user/hash": </p>
                   <p class="documentation-secundary-requests-text"> 
                   Add a new form in database. <br>
                   Parameters = form name and content. <br>
                   Return status equal success if the form was putted in database with success.
             </p>
          </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/setFavorite/user/hash/formName": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Set a form how favorite to the user. <br>
+                  Parameters = form name. <br>
+                  Return status equal success if the form was setted in database with success.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/setFavorite/user/hash/formName": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Set a form how favorite to the user. <br>
+                  Parameters = form name. <br>
+                  Return status equal success if the data was added with success.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/removeFavorite/user/hash/formName": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Remove a form how favorite to the user. <br>
+                  Parameters = form name. <br>
+                  Return status equal success if the data was removeded with success.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/addCreated/user/hash/formName": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Add a form to the list of forms created by the user. <br>
+                  Parameters = form name. <br>
+                  Return status equal success if the data was added with success.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/removeCreated/user/hash/formName": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Remove a form to the list of forms created by the user. <br>
+                  Parameters = form name. <br>
+                  Return status equal success if the data was removeded with success.
+            </p>
+         </div>
+
+         <div class="documentation-secundary-requests">
+            <p class="documentation-secundary-requests-subtitle"> "/API/changeUserInfo/user/hash": </p>
+                  <p class="documentation-secundary-requests-text"> 
+                  Change some users' data. <br>
+                  Parameters = data to be changed and the content. <br>
+                  Return status equal success if the data was changed with success.
+            </p>
+         </div>
+
       </section>
 
    </main>
